@@ -7,12 +7,12 @@
 
 #### Go to AWS Management Console and search for EC2.
 
-💡 Why- EC2 lets you create virtual servers in the cloud.
+  EC2 lets you create virtual servers in the cloud.
 
 
 ### 2️⃣ Choose Your Region
 
-Select your preferred region from the top-right corner
+ Select your preferred region from the top-right corner
 Example: Mumbai (ap-south-1)
 
 💡 Why?
@@ -21,33 +21,31 @@ Region affects:
 ✔ Speed / latency
 ✔ Cost
 
-3️⃣ Click “Launch Instance”
+### 3️⃣ Click “Launch Instance”
 
-### Go to EC2 Dashboard → Click Launch Instance
+#### Go to EC2 Dashboard → Click Launch Instance
 
-💡 Why?
-This opens the setup wizard to create your server.
+   This opens the setup wizard to create your server.
 
 ### 4️⃣ Name Your Instance
 
-Examples:
-
-my-nginx-server
-dev-server
-
-💡 Why?
-Makes it easier to identify later.
+  Examples:
+  
+  my-nginx-server
+  dev-server
+  
+  💡 Why- Makes it easier to identify later.
 
 ### 5️⃣ Select an AMI (Operating System)
 
-Choose:
-
-### Amazon Linux (recommended for beginners)
-Ubuntu
-
-💡 Why?
-AMI = OS image for your server.
-No OS = no server.
+  Choose:
+ 
+  Amazon Linux (recommended for beginners)
+ Ubuntu
+ 
+ 💡 Why-
+ AMI = OS image for your server.
+ No OS = no server.
 
 ### 6️⃣ Choose Instance Type
 
@@ -55,7 +53,7 @@ Popular options:
 
 t2.micro / t3.micro (Free Tier)
 
-💡 Why?
+💡 Why-
 Instance type decides:
 ✔ CPU
 ✔ RAM
@@ -74,7 +72,7 @@ Choose:
 .pem → Mac / Linux
 .ppk → Windows PuTTY
 
-💡 Why?
+💡 Why-
 Used for secure SSH login.
 Without this, you may not access your server.
 
@@ -86,14 +84,14 @@ SSH → Port 22 → My IP
 HTTP → Port 80 → Anywhere
 HTTPS → Port 443 → Anywhere (optional)
 
-💡 Why?
+💡 Why-
 Security Group protects your server and controls access.
 
 ### 9️⃣ Configure Storage
 
 Default 8 GB is enough for learning.
 
-💡 Why?
+💡 Why-
 Used to store:
 ✔ OS
 ✔ App files
@@ -103,7 +101,7 @@ Used to store:
 
 Review all settings → Click Launch Instance
 
-💡 Why?
+💡 Why-
 AWS will create your cloud machine.
 
  Wait for Status Checks
@@ -112,7 +110,7 @@ Wait until:
 ✅ Instance state = Running
 ✅ Status checks = 2/2 passed
 
-💡 Why?
+💡 Why-
 Server must be fully ready before login.
 
  Connect to Your Server
@@ -124,7 +122,7 @@ Option B: SSH (Mac/Linux)
 chmod 400 my-key.pem
 ssh -i my-key.pem ec2-user@your-public-ip
 
-💡 Why?
+💡 Why-
 This gives you terminal access to:
 ✔ Install software
 ✔ Deploy apps
