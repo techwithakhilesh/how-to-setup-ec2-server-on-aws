@@ -9,14 +9,19 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install nginx -y
 ## 3. Start NGINX service
 sudo systemctl start nginx
-## 4. Enable NGINX on boot
-sudo systemctl enable nginx
-## 5. Allow NGINX through firewall
-sudo ufw allow 'Nginx Full'
-# 6. Check NGINX status
+## 4. Check NGINX status
 sudo systemctl status nginx
+## 5. Enable NGINX on boot
+sudo systemctl enable nginx
+
+## Note:- Check your machine is not running on the given IP(copy and paste not redirect some time not workig)
+
+
+
+
+
 # ☁️ Amazon Linux Setup
-## 1. Update system packages
+### 1. Update system packages
 sudo dnf update -y
 ## 2. Install NGINX
 sudo dnf install nginx -y
