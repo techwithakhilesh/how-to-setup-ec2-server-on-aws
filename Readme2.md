@@ -135,7 +135,8 @@ This gives you terminal access to:
 ### 🔧 Basic Setup After Login
 
 Install Nginx:
-    - sudo yum update -y
-    - sudo yum install nginx -y
-    - sudo systemctl start nginx
-    - sudo systemctl enable nginx
+
+     - sudo yum update -y
+     - sudo yum install nginx -y
+     - sudo systemctl start nginx
+     - sudo systemctl enable nginx
