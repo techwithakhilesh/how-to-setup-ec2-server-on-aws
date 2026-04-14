@@ -7,8 +7,8 @@
 
 #### Go to AWS Management Console and search for EC2.
 
-💡 Why?
-EC2 lets you create virtual servers in the cloud.
+💡 Why- EC2 lets you create virtual servers in the cloud.
+
 
 ### 2️⃣ Choose Your Region
 
