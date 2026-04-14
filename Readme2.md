@@ -1,4 +1,4 @@
-# 🚀 How to Launch Your First Amazon EC2 Instance (Beginner Friendly Guide)
+# 🚀 How to Launch Your First Amazon EC2 Instance
 
 
 ## Here’s a simple step-by-step guide 👇
