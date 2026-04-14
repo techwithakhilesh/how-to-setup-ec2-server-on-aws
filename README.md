@@ -6,7 +6,7 @@ This guide covers how to install and configure NGINX on both Ubuntu and Amazon L
 ### 1. Update system packages
     - sudo apt update && sudo apt upgrade -y
 ### 2. Install NGINX
-   - sudo apt install nginx -y
+    - sudo apt install nginx -y
 ### 3. Start NGINX service
    - sudo systemctl start nginx
 ### 4. Check NGINX status
