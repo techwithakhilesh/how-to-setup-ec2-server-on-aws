@@ -14,7 +14,7 @@ sudo systemctl status nginx
 ## 5. Enable NGINX on boot
 sudo systemctl enable nginx
 
-## Note:- Check your machine is not running on the given IP(copy and paste not redirect some time not workig)
+#### Note:- Check your machine is not running on the given IP(copy and paste not redirect some time not workig)
 
 
 
