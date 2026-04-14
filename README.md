@@ -32,12 +32,12 @@ This guide covers how to install and configure NGINX on both Ubuntu and Amazon L
 
 
  ## Useful Commands
-    Test NGINX config
-          - sudo nginx -t
-     Reload NGINX after config changes
-         - sudo systemctl reload nginx
-    Restart NGINX
-        - sudo systemctl restart nginx
+  Test NGINX config
+    - sudo nginx -t
+  Reload NGINX after config changes
+    - sudo systemctl reload nginx
+  Restart NGINX
+    - sudo systemctl restart nginx
 
 ## NGINX Default Web Root and edit 
    ### Amazon Linux:
