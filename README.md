@@ -2,34 +2,31 @@
 
 This guide covers how to install and configure NGINX on both Ubuntu and Amazon Linux servers.
 
-🚀 Ubuntu Setup
-## 1. Update system packages
+## Ubuntu Setup
+### 1. Update system packages
 sudo apt update && sudo apt upgrade -y
-## 2. Install NGINX
+### 2. Install NGINX
 sudo apt install nginx -y
-## 3. Start NGINX service
+### 3. Start NGINX service
 sudo systemctl start nginx
-## 4. Check NGINX status
+### 4. Check NGINX status
 sudo systemctl status nginx
-## 5. Enable NGINX on boot
+### 5. Enable NGINX on boot
 sudo systemctl enable nginx
 
 #### Note:- Check your machine is not running on the given IP(copy and paste not redirect some time not workig)
 
 
-
-
-
-# ☁️ Amazon Linux Setup
+## ☁️ Amazon Linux Setup
 ### 1. Update system packages
 sudo dnf update -y
-## 2. Install NGINX
+### 2. Install NGINX
 sudo dnf install nginx -y
-## 3. Start NGINX service
+### 3. Start NGINX service
 sudo systemctl start nginx
-## 4. Enable NGINX on boot
+### 4. Enable NGINX on boot
 sudo systemctl enable nginx
-## 5. Check NGINX status
+### 5. Check NGINX status
 sudo systemctl status nginx
 ✅ Verify Installation
 
@@ -41,3 +38,12 @@ sudo systemctl status nginx
         sudo systemctl reload nginx
     - Restart NGINX
        sudo systemctl restart nginx
+
+## NGINX Default Web Root and edit 
+   ### Amazon Linux:
+       - sudo cd /usr/share/nginx/html
+       - nano index.html
+       
+   ## Ubuntu:
+      - sudo cd /var/www/html
+      - sudo nano index.nginx-debian.html
